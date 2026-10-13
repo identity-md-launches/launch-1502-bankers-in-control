@@ -1,0 +1,20 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "BICToken",
+    "name": "Bankers In Control",
+    "symbol": "BIC",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {"poolBps":8000,"initialMarketCapWei":"5000000000000000000000","remainderTo":"0xff3e8d9ba776662ca6ed1420ee366afb436d2684"},
+  "notes": "BICToken is a fixed-supply ERC-20 named Bankers In Control (BIC) with 18 decimals. Its no-argument constructor mints all 1,000,000,000 tokens once to msg.sender, the factory during launch. It exposes no external mint, burn, administration or upgrade mechanism, and transfers deliver the exact amount. No application contracts are included. The opening pool price is derived from the initial market cap and total supply; initialPrice records provenance only."
+}
